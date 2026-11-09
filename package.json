@@ -1,0 +1,40 @@
+{
+  "name": "netops-utils",
+  "version": "0.1.0",
+  "description": "Network engineer CLI: subnet calculator, device config diff (noise-filtered), config security audit (telnet/SNMP/weak-password checks) for H3C/Huawei/Cisco",
+  "bin": {
+    "netops-utils": "bin/netops-utils.js"
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "network",
+    "subnet",
+    "cidr",
+    "calculator",
+    "config",
+    "diff",
+    "audit",
+    "h3c",
+    "huawei",
+    "cisco",
+    "switch",
+    "cli",
+    "netops"
+  ],
+  "license": "MIT",
+  "author": "BG8CFB",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BG8CFB/netops-utils.git"
+  },
+  "homepage": "https://bg8cfb.github.io/netops-cheatsheets/",
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=14"
+  }
+}
